@@ -1,0 +1,300 @@
+   83  mv test2/test3 test3
+   84  ls
+   85  mv test4 test1_copy
+   86  ls
+   87  mv test1 test1_copy
+   88  ls
+   89  ls test1_copy
+   90  ls
+   91  mv test1_copy test1
+   92  ls
+   93  cd test1
+   94  s
+   95  ls
+   96  pwd
+   97  cd ..
+   98  pwd
+   99  ls
+  100  mv test1/test1 test1_copy
+  101  ls
+  102  ls test1
+  103  ls test1_copy/
+  104  rm test1/copy.php 
+  105  ls
+  106  ls test1_copy/
+  107  rm test1/copy.php
+  108  ls test1
+  109  ls
+  110  ls test1_copy/
+  111  ls
+  112  rm -r test3
+  113  rm -r test3
+  114  ls
+  115  ls
+  116  ls test1_copy/
+  117  rm test1_copy *.php
+  118  rm test1_copy/*.php
+  119  ls
+  120  ls test1_copy/
+  121  ls
+  122  ls test1
+  123  cat README.md
+  124  pwd
+  125  echo '# Hello World' > README.md
+  126  ls
+  127  cat README.md
+  128  ls
+  129  echo “?'# Server Lesson' > README.md 
+  130  ls
+  131  ls README.md 
+  132  vim README.md 
+  133  cat README.md 
+  134  echo '# Server Lesson' > README.md
+  135  cat README.md
+  136  echo 'Linux Practice' >> README.md
+  137  cat README.md 
+  138  echo '-----------------' >> README.md
+  139  cat README.md 
+  140  vi README.md 
+  141  vi README.md 
+  142  cd /root
+  143  pws
+  144  pwd
+  145  mkdir server_lesson && cd server_lesson
+  146  yum update -y && yum -y install git
+  147  git version
+  148  git init
+  149  touch first.txt
+  150  ls
+  151  git status
+  152  git log
+  153* 
+  154* 
+  155  ls
+  156  touch linux_practice1/public/index.php
+  157  touch -p linux_practice1/public/index.php
+  158  touch --help
+  159  mkdir -p linux_practice1/public
+  160  ls
+  161  touch linux_practice1/public/index.php
+  162  cp linux_practice1/public/index.php linux_practice1/public/index_bk.php
+  163  ls
+  164  ls linux_practice1/
+  165  ls linux_practice1/public/
+  166  cd linux_practice1/
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd linux_practice1/
+  171  ls
+  172  cp public tmp
+  173  cp -r public tmp
+  174  ls
+  175  ls tmp
+  176  ls public/
+  177  rm tmp/index_bk.php 
+  178  cd ..
+  179  pwd
+  180  touch README.md
+  181  ls
+  182  vi README.md 
+  183  vi README.md 
+  184  cd ..
+  185  git statu
+  186  git status
+  187  cd /root
+  188  ls
+  189  cd server_lesson/
+  190  ls
+  191  git status
+  192  git add .
+  193  git status
+  194  git commit -m "practice1"
+  195  git status
+  196  git status
+  197  git status
+  198  git commit
+  199  git remote -v
+  200  git remote add git@github.com:ryunosuke35/Linux_exercise.git
+  201  git remote add origin git@github.com:ryunosuke35/Linux_exercise.git
+  202  git remote -v
+  203  git remote add origin https://github.com/ryunosuke35/Linux_exercise.git
+  204  git remote -v
+  205  git status
+  206  git log
+  207  s
+  208  ls
+  209  git version
+  210  git add .
+  211  git status
+  212  git commit -m "practice1"
+  213  git config --global user.email "6bev2103@gmail.com"
+  214  git config --global user.name "ryunosuke35"
+  215  git commit -m "practice1"
+  216  git status
+  217  git log
+  218  git log
+  219  ls
+  220  mkdir -p linux_practice2/documents
+  221  cd linux_practice2/documents/
+  222  ls
+  223  touch gizumo{01.50}.md
+  224  ls
+  225  touch gizumo{1..50}.md
+  226  ls
+  227  ls
+  228  ls
+  229  rm gizumo{1..50}.md
+  230  ls
+  231  rm gizumo\{01.50\}.md 
+  232  ls
+  233  touch gizumo{01..50}.md
+  234  ls
+  235  cd ..
+  236  mv documents/gizumo{01..20}.md trash
+  237  ls
+  238  mkdir trash
+  239  ls
+  240  mv documents/gizumo{01..20}.md trash
+  241  ls
+  242  ls trash/
+  243  ls documents/
+  244  touch .gitignore
+  245  vi .gitignore 
+  246  ls
+  247  ls trash/
+  248  mv documents/gizumo{20..40}.md trash
+  249  mv documents/gizumo{21..40}.md trash
+  250  ls
+  251  ls
+  252  ls documents/
+  253  ls trash/
+  254  ls 
+  255  ls -a
+  256  vi .gitignore
+  257  vi .gitignore
+  258  history 300
+  259  touch exec_command.log
+  260  ls
+  261  git status
+  262  history 300
+  263  ls
+  264  vi exec_command.log 
+  265  vi exec_command.log 
+  266  cd ..
+  267  git status
+  268  git add .
+  269  git status
+  270  ls
+  271  ls -a
+  272  cd linux_practice2
+  273  ls
+  274  ls -a
+  275  vi .gitignore 
+  276  ls
+  277  ls -a
+  278  ls documents/
+  279  vi .gitignore 
+  280  vi .gitignore 
+  281  git status
+  282  git reset HEAD
+  283  git status
+  284  cd ..
+  285  git status
+  286  git add .
+  287  git status
+  288  git reset HEAD
+  289  git status
+  290  ls
+  291  cd linux_practice2
+  292  vi .gitignore 
+  293  vi .gitignore 
+  294  git status
+  295  cd ..
+  296  git add .
+  297  git status
+  298  git reset HEAD
+  299  git status
+  300  ls
+  301  cd linux_practice2
+  302  ls
+  303  ls -a
+  304  vi .gitignore
+  305  ls
+  306  ls -a
+  307  ls trash
+  308  git status
+  309  cd ..
+  310  git status
+  311  git add .
+  312  git status
+  313  ls -a
+  314  cd linux_practice2
+  315  vi .gitignore 
+  316  cd ..
+  317  git status
+  318  git add .
+  319  git stauts
+  320  git status
+  321  cd ..
+  322  cd /root/server_lesson/
+  323  ls
+  324  cd linux_practice2
+  325  vi .gitignore 
+  326  cd ..
+  327  git status
+  328  git add .
+  329  git status
+  330  cd linux_practice2
+  331  vi .gitignore 
+  332  cd ..
+  333  git reset HEAD
+  334  git status
+  335  git add .
+  336  git status
+  337  cd linux_practice2
+  338  vi .gitignore 
+  339  git reset HEAD
+  340  git status
+  341  git add .
+  342  git status
+  343  vi .gitignore 
+  344  git reset HEAD
+  345  git status
+  346  cd ..
+  347  git status
+  348  git add .
+  349  git status
+  350  cd linux_practice2
+  351  vi .gitignore 
+  352  ls
+  353  ks trash/
+  354  ls trash/
+  355  vi .gitignore 
+  356  git status
+  357  cd ..
+  358  git status
+  359  git reset HARD
+  360  git add .
+  361  git status
+  362  cd linux_practice2
+  363  ls
+  364  history 300
+  365  ls
+  366  cd exec_command.log 
+  367  vi exec_command.log 
+  368  rm exec_command.log 
+  369  ls
+  370  touch exec_command.log
+  371  ls
+  372  vi exec_command.log 
+  373  history 300
+  374  vi .gitignore 
+  375  cd ..
+  376  git reser HARD
+  377  git reset HARD
+  378  git add .
+  379  git status
+  380  cd linux_practice2
+  381  vi exec_command.log 
+  382  history 300
